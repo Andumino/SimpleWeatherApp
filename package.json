@@ -11,7 +11,6 @@
     "build": "webpack",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "set NPM_CONFIG_PRODUCTION=false",
     "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "author": "andriy luhina",
