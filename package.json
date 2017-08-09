@@ -2,9 +2,12 @@
   "name": "simple-weather-app",
   "version": "1.0.0",
   "description": "PHP Academy, modul 5",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "build": "webpack",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
