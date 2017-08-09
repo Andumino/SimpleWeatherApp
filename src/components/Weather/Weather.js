@@ -4,6 +4,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.scss';
 import CurrentWeather from '../CurrentWeather/CurrentWeather';
 import ForecastNextDayWeather from '../ForecastNextDayWeather/ForecastNextDayWeather';
+import ForecastNext5DayWeather from '../ForecastNext5DayWeather/ForecastNext5DayWeather';
+import ForecastNext16DayWeather from '../ForecastNext16DayWeather/ForecastNext16DayWeather';
 
 class Weather extends React.Component {
 
@@ -29,8 +31,8 @@ class Weather extends React.Component {
                     <TabList>
                         <Tab>В даний час</Tab>
                         <Tab>Завтра</Tab>
-                        <Tab>На наступні 7 днів</Tab>
-                        <Tab>На наступні 30 днів</Tab>
+                        <Tab>На наступні 5 днів</Tab>
+                        <Tab>На наступні 16 днів</Tab>
                     </TabList>
 
                     <TabPanel>
@@ -40,10 +42,10 @@ class Weather extends React.Component {
                         <ForecastNextDayWeather />
                     </TabPanel>
                     <TabPanel>
-                        <h2>Any content 2</h2>
+                        <ForecastNext5DayWeather />
                     </TabPanel>
                     <TabPanel>
-                        <h2>Any content 2</h2>
+                        <ForecastNext16DayWeather />
                     </TabPanel>
                 </Tabs>
 			</div>

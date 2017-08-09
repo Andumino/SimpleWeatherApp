@@ -21,6 +21,7 @@ class CurrentWeather extends React.Component {
 
         return (
             <div className="CurrentWeather">
+                <p> Погода: {weather.current.weather[0].description};</p>
                 <p> Температура: {weather.current.main.temp}&#8451;</p>
                 <p> Вологість: {weather.current.main.humidity}% </p>
                 <p> Вітер: {weather.current.wind.speed} м/с </p>
