@@ -30,9 +30,7 @@
     "redux-thunk": "^2.0.1",
     "webpack": "^1.12.14",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.10.0"
-  },
-  "devDependencies": {
+    "webpack-hot-middleware": "^2.10.0",
     "abby": "^1.0.5",
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.7.4",
@@ -52,5 +50,8 @@
     "redux-devtools": "^3.2.0",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1"
+
+  },
+  "devDependencies": {
   }
 }
